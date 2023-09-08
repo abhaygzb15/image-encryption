@@ -106,4 +106,18 @@
 .btn::before, .btn::after {
 	box-sizing: border-box;
 }
-
+.io{
+	display: flex;
+	margin-top: 40px;
+}
+.input,.output{
+	margin-left:auto;
+	margin-right: auto;
+	height: 300px;
+	border: 3px solid red;
+	width: 25%;
+	border-radius: 20px;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 100px;
+}
