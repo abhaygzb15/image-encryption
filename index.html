@@ -1,35 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Image Encryption</title>
-    <link rel="icon" href="./images/logo.jpeg">
-</head>
-<body>
+    <link rel="icon" href="./images/logo.jpeg" />
+  </head>
+  <body>
     <div class="header">
-        <img src="./images/logo.jpeg" alt="logo" class="logo">
-        <h1>Image Encryption and Decryption</h1>
-        <a href="#" class="btn btn1">Image Processing</a>
-        <a href="./features.html" class="btn btn2">Help and Support</a>
-        <a href="./login.html" class="btn btn3">Log in</a>
-        <a href="./login.html" class="btn btn4">Sign up</a>
+      <img src="./images/logo.jpeg" alt="logo" class="logo" />
+      <h1>Image Encryption and Decryption</h1>
+      <a href="#" class="btn btn1">Image Processing</a>
+      <a href="./features.html" class="btn btn2">Help and Support</a>
+      <a href="./login.html" class="btn btn3">Log in</a>
+      <a href="./login.html" class="btn btn4">Sign up</a>
     </div>
     <div class="iotext">Encrypt your Image here</div>
     <div class="io">
-        <<div class="input">
-            <label for="imageUpload" class="upload-label">Upload your Image here</label>
-            <input type="file" id="imageUpload" name="imageUpload" accept="image/*" style="display: none;">
-            <button type="button" id="uploadButton" class="upload-button">Upload Image</button>
-            <img id="selectedImage" src="" alt="Selected Image" style="display: none;">
-        </div>
-        <div class="output">Image Generating...</div>
+      <div class="input">
+        <label for="imageUpload" class="upload-label"
+          >Upload your Image here</label
+        >
+        <input
+          type="file"
+          id="imageUpload"
+          name="imageUpload"
+          accept="image/*"
+          style="display: none"
+        />
+        <button type="button" id="uploadButton" class="upload-button">
+          Upload Image
+        </button>
+        <img
+          id="selectedImage"
+          src=""
+          alt="Selected Image"
+          style="display: none"
+        />
+      </div>
+      <div class="reversible">
+        <img
+          src="./images/pngwing.com.png"
+          alt="Reversible"
+          class="reversible-image"
+        />
+      </div>
+      <div class="output">Image Generating...</div>
     </div>
-    <img src="./images/simmple.jpeg" alt="Image not Uploaded" class="simple">
-    <img src="./images/simmple-imageonline.co-6524410.png" alt="Image not Uploaded" class="encrypt"> 
+    <img src="./images/simmple.jpeg" alt="Image not Uploaded" class="simple" />
+    <img
+      src="./images/simmple-imageonline.co-6524410.png"
+      alt="Image not Uploaded"
+      class="encrypt"
+    />
 
     <script src="./script.js"></script>
-
-</body>
+  </body>
 </html>

@@ -148,6 +148,14 @@
 	text-align: center;
 	position: relative; /
 }
+.reversible{
+	width:10%;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+.reversible-image{
+	width: 100%;
+}
 
 .upload-label {
 	cursor: pointer;
