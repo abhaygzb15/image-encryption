@@ -225,4 +225,55 @@
     margin: auto; /* Center the image horizontally within its container */
 }
 
+footer {
+	background-color: grey;
+	padding: 2% 0;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+   left: 0;
+   right: 0;
+	width: 100%;
+   display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.info{
+	margin: 0 1%;
+	padding: 1% 1%;
+	background-color: #333;
+	color: white;
+	border-radius: 20px;
+	text-decoration: none;
+   border: none;
+	cursor: pointer;
+   font-size: 100%;
+}
+
+.info:hover {
+	background-color: white;
+	color: red;
+   font-weight: bold;
+   cursor:default;
+}
+
+#info5{
+   position:absolute;
+   right: 0;
+   width: 10%;
+   padding: 1.5% 0;
+   color: rgb(35, 171, 216);
+   cursor: pointer;
+}
+#info6{
+   position:absolute;
+   left: 0;
+   width: 10%;
+   padding: 1.5% 0;
+   color: red;
+   cursor: pointer;
+}
+.info i{
+   margin-right: 10%;
+}
