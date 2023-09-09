@@ -18,13 +18,18 @@
     </div>
     <div class="iotext">Encrypt your Image here</div>
     <div class="io">
-        <div class="input">Upload your Image here</div>
+        <<div class="input">
+            <label for="imageUpload" class="upload-label">Upload your Image here</label>
+            <input type="file" id="imageUpload" name="imageUpload" accept="image/*" style="display: none;">
+            <button type="button" id="uploadButton" class="upload-button">Upload Image</button>
+            <img id="selectedImage" src="" alt="Selected Image" style="display: none;">
+        </div>
         <div class="output">Image Generating...</div>
     </div>
     <img src="./images/simmple.jpeg" alt="Image not Uploaded" class="simple">
     <img src="./images/simmple-imageonline.co-6524410.png" alt="Image not Uploaded" class="encrypt"> 
 
-
+    <script src="./script.js"></script>
 
 </body>
 </html>
