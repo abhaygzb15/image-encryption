@@ -106,6 +106,18 @@
 .btn::before, .btn::after {
 	box-sizing: border-box;
 }
+.iotext{
+	border: 2px solid red;
+	font-size: 40px;
+	text-align: center;
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background-color: #fbb300;
+	border-radius: 20px;
+	padding: 10px;
+}
 .io{
 	display: flex;
 	margin-top: 40px;
@@ -120,4 +132,12 @@
 	font-size: 60px;
 	text-align: center;
 	padding-top: 100px;
+}
+.simple,.encrypt{
+	position: relative;
+	left: 160px;
+	top: 40px;
+	margin-right: 300px;
+	border-radius: 20px;
+	height: 250px;
 }
