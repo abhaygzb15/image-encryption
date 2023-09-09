@@ -45,15 +45,48 @@
           alt="Reversible"
           class="reversible-image"
         />
+        <input
+          type="file"
+          id="encryptImage"
+          name="encryptImage"
+          accept="image/*"
+          style="display: none"
+        />
+        <button type="button" id="encryptButton" class="encrypt-button">
+          Encrypt
+        </button>
+        <img
+          id="encryptedImage"
+          src="./images/image-encryption.jpeg"
+          alt="Encrypted Image"
+          style="display: none"
+        />
       </div>
       <div class="output">Image Generating...</div>
     </div>
-    <img src="./images/simmple.jpeg" alt="Image not Uploaded" class="simple" />
-    <img
-      src="./images/simmple-imageonline.co-6524410.png"
-      alt="Image not Uploaded"
-      class="encrypt"
-    />
+    <div class="sample">
+      <div class="image1">
+        <img
+          src="./images/simmple.jpeg"
+          alt="Image not Uploaded"
+          class="simple"
+        />
+      </div>
+      <div class="image2">
+        <img
+          src="./images/pngwing.com.png"
+          alt="Reversible"
+          class="inner-image"
+        />
+      </div>
+      <div class="image3">
+        <img
+          src="./images/simmple-imageonline.co-6524410.png"
+          alt="Image not Uploaded"
+          class="encrypt"
+        />
+      </div>
+    </div>
 
     <script src="./script.js"></script>
   </body>
