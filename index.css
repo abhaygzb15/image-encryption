@@ -178,7 +178,6 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-
 .sample{
 	display:flex;
 	margin-top:10px;
@@ -211,6 +210,12 @@
 	width: 70%;
 	font-size:110%;
 	margin-left: 15%;
+	padding: 4%;
+	border: 3px solid black;
+	border-radius: 10px;
+	margin-top: 10%;
+	width: 50%;
+	font-size: 40%;
 }
 
 .encrypt-button:hover {
@@ -276,4 +281,12 @@ footer {
 }
 .info i{
    margin-right: 10%;
+}
+#encryptedImage {
+	max-width: 95%; 
+	max-height: 95%; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
