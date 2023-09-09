@@ -36,3 +36,15 @@ function handleImageUpload(event) {
 document
   .getElementById("imageUpload")
   .addEventListener("change", handleImageUpload);
+document.getElementById("encryptButton").addEventListener("click", function () {
+  const outputDiv = document.querySelector(".output");
+  const encryptedImage = document.getElementById("encryptedImage");
+  encryptedImage.src = "./images/image-encryption.jpeg";
+  encryptedImage.alt = "Encrypted Image";
+
+  // Make the encrypted image visible
+  encryptedImage.style.display = "block";
+
+  // Update the text in the output div
+  outputDiv.textContent = "Encryption Complete";
+});
