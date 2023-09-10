@@ -1,3 +1,6 @@
+body{
+	background-color:lightgoldenrodyellow;
+}
 .header{
     display:flex;
     background-color: black;
@@ -224,10 +227,9 @@
 
 
 #encryptedImage {
-    max-width: 100%; /* Make sure the image doesn't exceed its container's width */
-    max-height: 100%; /* Make sure the image doesn't exceed its container's height */
-    display: block; /* Ensures the image is displayed as a block element */
-    margin: auto; /* Center the image horizontally within its container */
+	width:25%;
+	height:300px;
+    margin: auto; 
 }
 
 footer {
@@ -283,10 +285,11 @@ footer {
    margin-right: 10%;
 }
 #encryptedImage {
-	max-width: 95%; 
-	max-height: 95%; 
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	width: 265%; 
+	height:250%; 
+	margin-left:248px;
+	margin-right:auto;
+	margin-top:-140px;
+	margin-bottom:auto;
+	border-radius:10px;
 }
